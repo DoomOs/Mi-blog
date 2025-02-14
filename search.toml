@@ -1,5 +1,5 @@
 [input]
-url_prefix = "http://localhost:8000"
+url_prefix = "https://github.com/DoomOs/Mi-blog"
 html_selector = "main"
 base_directory = "D:\\Doom.Os\\Desktop\\miblog\\blog"
 
