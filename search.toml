@@ -1,0 +1,14 @@
+[input]
+url_prefix = "http://localhost:8000"
+html_selector = "main"
+base_directory = "D:\\Doom.Os\\Desktop\\miblog\\blog"
+
+[[input.files]]
+path = "pages/sobre-mi.html"
+url = "/pages/sobre-mi.html"
+title = "Sobre mi"
+
+[[input.files]]
+path = "posts/ia-spam.html"
+url = "/posts/ia-spam.html"
+title = "Clasificacion de Spam con Machine Learning en Python"

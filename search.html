@@ -1,0 +1,37 @@
+Title: Buscar
+Date: 2025-02-13 12:00
+Category: extras
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Buscar - Doom.Os Blog</title>
+  <!-- Incluir CSS de Stork desde la CDN -->
+  <link rel="stylesheet" href="https://files.stork-search.net/basic.css" />
+  <link rel="stylesheet" media="screen and (prefers-color-scheme: dark)" href="https://files.stork-search.net/dark.css" />
+</head>
+<body>
+  <header>
+    <h1>Buscar en Doom.Os Blog</h1>
+  </header>
+  <main>
+    <!-- Formulario de búsqueda -->
+    <form id="search-form">
+      <input type="search" placeholder="Buscar..." data-stork="sitesearch" />
+      <button type="submit">Buscar</button>
+    </form>
+    <!-- Área para mostrar los resultados -->
+    <div data-stork="sitesearch-output"></div>
+  </main>
+  
+  <!-- Incluir el script de Stork desde la CDN -->
+  <script src="https://files.stork-search.net/releases/v1.5.0/stork.js"></script>
+  <script>
+      stork.initialize("https://files.stork-search.net/releases/v1.5.0/stork.wasm")
+      stork.downloadIndex("sitesearch", "http://localhost:8000/search-index.st")
+
+      stork.attach("sitesearch")
+  </script>
+</body>
+</html>
