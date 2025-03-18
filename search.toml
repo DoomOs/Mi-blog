@@ -9,6 +9,11 @@ url = "/pages/sobre-mi.html"
 title = "Sobre mi"
 
 [[input.files]]
+path = "posts/sistema-gestion-tareas-unificado.html"
+url = "/posts/sistema-gestion-tareas-unificado.html"
+title = "Sistema de Gestion de Tareas en Python con PyQt5, SQLite y FPDF"
+
+[[input.files]]
 path = "posts/ia-spam.html"
 url = "/posts/ia-spam.html"
 title = "Clasificacion de Spam con Machine Learning en Python"
